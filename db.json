@@ -1,0 +1,57 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Buy groceries",
+      "description": "Milk, bread, eggs, and fruits",
+      "completed": false,
+      "dueDate": "2024-08-30",
+      "userId": 1,
+      "categoryId": 2
+    },
+    {
+      "id": 2,
+      "title": "Finish project report",
+      "description": "Complete the report for the quarterly project",
+      "completed": true,
+      "dueDate": "2024-08-25",
+      "userId": 2,
+      "categoryId": 1
+    },
+    {
+      "id": 3,
+      "title": "Book dentist appointment",
+      "description": "Call to schedule an appointment",
+      "completed": false,
+      "dueDate": "2024-09-05",
+      "userId": 1,
+      "categoryId": 3
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice",
+      "email": "alice@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Bob",
+      "email": "bob@example.com"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Work"
+    },
+    {
+      "id": 2,
+      "name": "Personal"
+    },
+    {
+      "id": 3,
+      "name": "Health"
+    }
+  ]
+}
